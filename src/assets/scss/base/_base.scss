@@ -16,3 +16,9 @@ body {
   color: hsl(var(--neutral-dark-blue));
   background-color: hsl(var(--primary-cream));
 }
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}

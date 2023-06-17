@@ -3,7 +3,7 @@
 <template>
   <main>
     <div class="card">
-      <img src="./assets/img/image-product-desktop.jpg" alt="Chanel Perfume" />
+      <img class="product-img" src="./assets/img/image-product-desktop.jpg" alt="Chanel Perfume" />
 
       <div class="product-info">
         <p class="category">Perfume</p>
@@ -28,4 +28,22 @@
   </main>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+.card {
+  border-radius: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 46rem;
+  margin: 2rem 1rem;
+}
+
+.product-img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 2.35;
+  border-radius: 1rem 1rem 0 0;
+}
+</style>

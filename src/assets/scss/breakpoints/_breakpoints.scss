@@ -1,0 +1,23 @@
+@media (min-width: 600px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    flex-direction: row;
+  }
+
+  .product-img,
+  .product-info {
+    flex-basis: 50%;
+  }
+
+  .product-img {
+    border-radius: 1rem 0 0 1rem;
+    object-fit: unset;
+    aspect-ratio: unset;
+  }
+}

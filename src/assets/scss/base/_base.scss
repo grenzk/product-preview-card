@@ -13,8 +13,12 @@
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: hsl(var(--neutral-dark-blue));
+  color: hsl(var(--neutral-dark-grayish-blue));
   background-color: hsl(var(--primary-cream));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img,

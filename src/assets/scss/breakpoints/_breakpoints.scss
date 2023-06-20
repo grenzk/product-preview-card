@@ -1,9 +1,6 @@
 @media (min-width: 600px) {
-  body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  :root {
+    --biggest-font-size: 2.5rem;
   }
 
   .card {
@@ -19,5 +16,9 @@
     border-radius: 1rem 0 0 1rem;
     object-fit: unset;
     aspect-ratio: unset;
+  }
+
+  .product-info {
+    border-radius: 0 1rem 1rem 0;
   }
 }

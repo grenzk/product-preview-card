@@ -3,7 +3,10 @@
 <template>
   <main>
     <div class="card">
-      <img class="product-img" src="./assets/img/image-product-desktop.jpg" alt="Chanel Perfume" />
+      <picture class="product-img">
+        <source srcset="@/assets/img/image-product-desktop.jpg" media="(min-width: 600px)" />
+        <img src="@/assets/img/image-product-mobile.jpg" alt="Chanel Perfume" />
+      </picture>
 
       <div class="product-info l-flex">
         <p class="category">Perfume</p>
@@ -37,9 +40,7 @@
 }
 
 .product-img {
-  width: 100%;
-  object-fit: cover;
-  aspect-ratio: 3 / 2.35;
+  overflow: hidden;
   border-radius: 0.7rem 0.7rem 0 0;
 }
 

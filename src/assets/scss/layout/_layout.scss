@@ -2,11 +2,11 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  row-gap: 1.5rem;
+  row-gap: 1.9rem;
 }
 
 .l-inline {
   display: flex;
-  justify-content: space-between;
+  column-gap: 1.5rem;
   align-items: center;
 }

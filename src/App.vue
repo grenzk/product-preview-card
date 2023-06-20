@@ -30,26 +30,22 @@
 
 <style lang="scss">
 .card {
-  border-radius: 1rem;
-}
-
-.card {
   display: flex;
   flex-direction: column;
-  max-width: 46rem;
-  margin: 0 1rem;
+  max-width: 44rem;
+  margin: 2rem 1rem;
 }
 
 .product-img {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 3 / 2.35;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 0.7rem 0.7rem 0 0;
 }
 
 .product-info {
   background-color: hsl(var(--neutral-white));
-  border-radius: 0 0 1rem 1rem;
+  border-radius: 0 0 0.7rem 0.7rem;
 
   .category {
     text-transform: uppercase;
@@ -69,8 +65,6 @@
   }
 
   .price {
-    width: 67%;
-
     .discount {
       font-family: var(--heading-font);
       font-size: var(--biggest-font-size);
@@ -87,8 +81,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1rem;
-    padding: 1rem;
+    column-gap: 0.9rem;
+    padding: 1.1rem;
     color: hsl(var(--neutral-white));
     font-size: var(--h3-font-size);
     background-color: hsl(var(--primary-dark-cyan));
@@ -96,7 +90,12 @@
     border-radius: 0.6rem;
 
     img {
-      width: 6%;
+      width: 17px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: hsl(var(--primary-very-dark-cyan));
     }
   }
 }

@@ -21,7 +21,7 @@
         </div>
 
         <button class="button">
-          <img src="./assets/img/icon-cart.svg" />
+          <img src="./assets/img/icon-cart.svg" alt="Cart Icon"/>
           <small>Add to Cart</small>
         </button>
       </div>
